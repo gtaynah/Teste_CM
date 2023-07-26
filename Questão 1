@@ -1,0 +1,15 @@
+//A
+SELECT * FROM Atendimento
+WHERE	id_paciente = 2 AND
+		cd_especialidade = 'Neurologia' AND
+		data_atendimento >= DATEADD(MONTH, -6, CONVERT(SMALLDATETIME,DATEDIFF(DD,0,GETDATE()))) 
+
+
+//B
+SELECT	p.nome_paciente, 
+		pro.descricao_prontuario, 
+		a.data_atendimento 
+FROM Prontuario AS pro
+INNER JOIN Atendimento AS a ON pro.id_atendimento = a.id_atendimento
+INNER JOIN Pacientes AS p ON pro.id_paciente = p.id_paciente AND a.id_paciente = p.id_paciente
+WHERE pro.id_paciente = 123
