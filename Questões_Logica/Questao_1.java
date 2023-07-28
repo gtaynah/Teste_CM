@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//Questão 1: Faça um programa, em seguida, um programa que solicite a entrada de dois números, em seguida imprime na tela o quadrado do menor número e a raiz quadrada do maior número, se for possível.
+
 public class Questao_1{
 	public static void main(String[] args) throws Exception {
 		Scanner ler = new Scanner(System.in);
