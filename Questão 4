@@ -1,2 +1,8 @@
 Questão 4: Descreva como você lidaria com uma situação em que um usuário encontra um erro desconhecido.
-Primeiro coletaria com o usuário informações mais detalhadas sobre o erro para em seguida tentar reproduzi-lo, após isso examinaria os logs do sistema para procurar pistas do que pode estar acontecendo, faria também a análise de ambiente e configurações e parametrizações do sistema. Depois também checaria o banco de dados senão consultaria colegas ou líderes técnicos que possam ter mais conhecimento, e após a identificação e correção do erro, documentaria para facilitar análises futuras
+Primeiro coletaria com o usuário informações mais detalhadas sobre o erro para em seguida tentar reproduzi-lo.
+Após isso examinaria os logs do sistema para procurar pistas do que pode estar acontecendo, faria também a análise de ambiente, configurações e parametrizações do sistema. Depois também checaria o banco de dados, senão consultaria colegas ou líderes técnicos que possam ter mais conhecimento.
+E após a identificação e correção do erro, documentaria para facilitar análises futuras.
+
+
+
+
