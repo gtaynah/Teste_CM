@@ -1,4 +1,5 @@
 Questão 3: Um usuário informa que está recebendo uma mensagem de erro ao tentar realizar uma operação específica no sistema. Explique como você investigaria esse problema e quais etapas seguiria para solucioná-lo.
+
 Primeiramente coletaria com o cliente a mensagem de erro específica pois através da mensagem saberei onde está ocorrendo o erro.
 Consultaria a documentação do sistema para verificar se existe alguma informação sobre o erro. 
 Caso não encontre nenhum registro sobre o erro na documentação, com os mesmos dados que o cliente está utilizando em um ambiente local ou no ambiente do cliente tentaria reproduzir o erro.   
