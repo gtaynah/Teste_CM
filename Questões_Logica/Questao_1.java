@@ -12,9 +12,12 @@ public class Questao_1{
 			System.out.println("A raiz quadrada de " + n1 + " é " + Math.sqrt(n1));
 			System.out.println("O quadrado de " + n2 + " é " + Math.pow(n2,2));
 		}
-		else{
+		else if(n2>n1){
 			System.out.println("A raiz quadrada de " + n2 + " é " + Math.sqrt(n2));
 			System.out.println("O quadrado de " + n1 + " é " + Math.pow(n1,2));
+		}
+		else{
+			System.out.println("Os números são iguais!");
 		}
 
 	}
